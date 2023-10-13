@@ -17,3 +17,9 @@ void Jedis::utiliserLaForce(Heros &cible)
     cout << m_nomheros <<" attaque avec une force de " <<m_force << endl;
     cible.diminuerVie(m_force);
 }
+
+void Jedis::afficher() const //Méthode pour afficher les informations du heros
+{
+    Heros::afficher();
+    cout << "Niveau de Force : " << m_force << endl;
+}

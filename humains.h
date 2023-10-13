@@ -9,6 +9,7 @@ public:
     Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancearme);
     Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancearme, int forcepoing);
     void coupDePoing(Heros &cible);
+    virtual void afficher() const override;
 private:
     int m_forcepoing;
 };

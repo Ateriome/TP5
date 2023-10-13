@@ -17,7 +17,7 @@ public:
     void diminuerVie(int vieenmoins);
     void attaquer(Heros &cible);
     bool vivant() const;
-    void afficher() const;
+    virtual void afficher() const;
 };
 #include "hero.cpp"
 #endif

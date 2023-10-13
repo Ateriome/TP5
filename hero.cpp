@@ -32,11 +32,12 @@ Heros::Heros(string nomheros, int vieheros, string nomarme, int puissancearme) /
 
 void Heros::afficher() const // Méthode pour afficher les informations du héros
 {
+    cout<<"-----------------------" << endl;
     cout << "Heros :"<<m_nomheros << "\tVie: " << m_vieheros << endl;
     cout << "Arme : " << m_nomarme << "\tPuissance de l'Arme : " << m_puissancearme << endl; 
     if (vivant() == true)
         cout << "Heros Vivant" << endl;
     else
         cout << "Heros Mort" << endl;
-    cout<<"-----------------------" << endl;
+    
 }
