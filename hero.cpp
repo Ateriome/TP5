@@ -41,3 +41,16 @@ void Heros::afficher() const // Méthode pour afficher les informations du héro
         cout << "Heros Mort" << endl;
     
 }
+
+void Heros::afficher4Heros(Heros &cible1, Heros &cible2, Heros &cible3, Heros &cible4, Heros &cible5, Heros &cible6, Heros &cible7, Heros &cible8)
+{
+    cout << "Voici les informations de 8 Heros :" << endl;
+    cible1.afficher();
+    cible2.afficher();
+    cible3.afficher();
+    cible4.afficher();
+    cible5.afficher();
+    cible6.afficher();
+    cible7.afficher();
+    cible8.afficher();
+}

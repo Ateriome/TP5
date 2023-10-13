@@ -61,5 +61,7 @@ int main()
     c3po.afficher();
     cout << endl;
 
+    Heros::afficher4Heros(yoda, luke, palpatine,vador, leia, solo, r2d2, c3po);
+
     return 0;
 }
